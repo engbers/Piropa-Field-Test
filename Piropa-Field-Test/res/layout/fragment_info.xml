@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Piropa Feld Test" />
+    <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Ordner in den Exportiert wird: Interner Speicher/PiropaTest"  />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datei Name der exportierten Daten ergibt sich aus Koordinatentyp, LAC, CID und Uhrzeit. Die Datei beinhaltet die Koordinaten und Signalstärke für jede Messung zu der jeweiligen Station."
+        android:textSize="15sp" />
+	<TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Die Koordinaten der Basisstationen lassen sich zum Beispiel auf opencellid.org durch MCC (Deutschland = 262), MNC (Telekom = 01, Vodafone = 02, Eplus = 03), LAC (Location Area Code) und  CID (Cell ID) ermitteln."
+        android:textSize="15sp" />	
+    
+</LinearLayout>
+
+
